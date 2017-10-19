@@ -1,0 +1,18 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    minitest (5.10.3)
+    unicode_utils (1.4.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  minitest
+  unicode_utils
+
+RUBY VERSION
+   ruby 2.0.0p648
+
+BUNDLED WITH
+   1.13.7
