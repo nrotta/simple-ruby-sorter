@@ -18,7 +18,6 @@ class Sorter
 
     # sorts array by word count and reverses
     sorted = arr.sort_by { |hash| hash[:count] }.reverse
-    return sorted
   end
 
   # given a sorted array of words, it displays the top :limit words and their counts to the console
