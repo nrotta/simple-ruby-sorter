@@ -1,4 +1,3 @@
-require "uri"
 require "unicode_utils/display_width"
 
 class Sorter

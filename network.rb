@@ -1,4 +1,5 @@
 require "net/http"
+require "uri"
 
 class Network
   # very naive fetch; no error handling. given an uri string, it perform a get and returns the body of the response.

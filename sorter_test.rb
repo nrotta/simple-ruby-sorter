@@ -4,7 +4,7 @@ require "./sorter"
 class MainTest < Minitest::Test
   def test_sort
     # checks diff cases, special characters removal
-    words = "The &shop; and/ so was^ a house. the, the. AND #ThE and! wAs&".split(" ")
+    words = "The &shop; and/ so was^ a. the, the. AND #ThE and! wAs&".split(" ")
 
     sorter = Sorter.new
     sorted = sorter.sort(words)
